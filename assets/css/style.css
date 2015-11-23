@@ -51,9 +51,6 @@ a:hover {
 }
 
 
-/*=====NAVIGATION=====*/
-
-
 /*=====STRUCTURAL ELEMENTS=====*/
 
 .content {
@@ -71,7 +68,7 @@ a:hover {
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
     color: #FFF;
     font-size: 1.4em;
-    background: #019875;
+    background: #999;
 }
 
 #intro {
@@ -107,7 +104,7 @@ section:nth-child(2n) {
 
 footer {
     color: #FFF;
-    background: #019875;
+    background: #999;
 }
 
 #works-cited {
@@ -119,8 +116,6 @@ footer {
 #works-cited li {
     padding: 1em;
 }
-
-
 
 
 /*=====HIDDEN NAVIGATION=====*/
@@ -139,42 +134,9 @@ footer {
 }
 
 
-/*
-#menu-toggle i {
-    height: 0;
-    width: 0;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-}
-*/
-
-
-/*
-#overlay {
-    background: #000;
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    z-index: -1;
-    -o-transition: 1s;
-    -ms-transition: 1s;
-    -moz-transition: 1s;
-    -webkit-transition: 1s;
-    transition: 1s;
-}
-*/
-
 #hidden-nav {
     box-sizing: border-box;
-    background: #00B16A;
+    background: #000;
     position: fixed;
     top: 0;
     right: -50%;
@@ -196,7 +158,7 @@ footer {
     position: fixed;
     top: 1em;
     right: 1em;
-    border: solid 2px #000;
+    border: solid 2px #FFF;
     z-index: 300;
 }
 
@@ -237,7 +199,7 @@ input[type="radio"][id="open"]:checked ~ #overlay {
 
 input[type="radio"][id="open"]:checked ~ #hidden-nav {
     visibility: visible;
-    opacity: .9;
+    opacity: .8;
     position: fixed;
     right: 0;
 }
